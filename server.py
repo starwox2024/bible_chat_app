@@ -1,11 +1,11 @@
 import streamlit as st
 import google.generativeai as genai
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # create an object of genai
-load_dotenv()
-genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+#load_dotenv()
+genai.configure(api_key="AIzaSyBUSj-kqU1oZmdQUyuynrPjb1WHUNE1mRM")
 
 model_name="gemini-1.5-pro"
 
